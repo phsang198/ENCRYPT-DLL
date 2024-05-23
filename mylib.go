@@ -1,6 +1,7 @@
 package main
 
 import (
+	"C"
     "bytes"
     "crypto/aes"
     "crypto/cipher"
@@ -11,7 +12,6 @@ import (
     "encoding/base64"
     "encoding/hex"
     "encoding/pem"
-    "fmt"
 )
 
 //export Ase256
